@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script lenguage ="javascript" type ="text/javascript" src="jsmoneda.js"></script>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href = "EstitloMoneda.css">
+    <title>divisas</title>
+</head>
+    <body>
+        <h1 class="titulo">CONVERSOR DE MONEDAS</h1>
+        <form class="divisas">
+            <div class="comboimportdar">
+            <select name="importedar" id="importedar">
+                <option>US Dolar</option>
+                <option>Euro</option>
+                <option>Lempira-Honduras</option>
+                <option>Colon-Costa Rica</option>
+                <option>Quetzal-Guatemala</option>
+            </select>
+            <br>
+            <br>
+            <label for="pnombre">Tengo Esto a Cambiar</label>
+            <br>
+            <input type="text" id="importe" class="dar">
+            <br>
+        </div>
+            <div class="combore">
+            <select name="importere" id="importere">
+                <option>US Dolar</option>
+                <option>Euro</option>
+                <option>Lempira-Honduras</option>
+                <option>Colon-Costa Rica</option>
+                <option>Quetzal-Guatemala</option>
+            </select>
+            <br><br>
+            <label for="snombre">Quiero Esto a Cambio</label>
+            <br>
+            <input type="text"  id="cambio" class="tengo">
+            <br>
+        </div>
+            <input type="submit" class="submitForm" onclick=' return convertir();' value="CONVERTIR">
+        </form>
+
+    </body>
+</html>
+    

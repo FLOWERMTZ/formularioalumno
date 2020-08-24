@@ -1,0 +1,83 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+    font-weight: bold;
+}
+
+
+.titulo{
+    margin-top: 10%;
+    margin-left: 25%;
+    color: navy;
+    font-weight: bold;
+}
+.comboimportdar{
+   position: absolute;
+   top: 30%;
+   left: 30%;
+   transform: translate(-50%,-50%);
+
+}
+.combore{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ 
+ }
+ .comboimportdar select{
+     background: rgba(109, 161, 209, 0.1);
+     color:black;
+     padding: 15px;
+     width: 250px;
+     height: 50px;
+     font-size: 20px;
+     font-weight: bold;
+ }
+
+ .combore select{
+    background: rgba(109, 161, 209, 0.1);
+    color:black;
+    padding: 15px;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tengo{
+    width: 90%;
+    padding: 10px;
+    color: crimson;
+    background: rgba(218, 238, 145, 0.1);
+    border: 1px solid rgba(15, 15, 3, 0.3) ;
+    margin-bottom: 25px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+    }
+
+    .dar {
+    width: 90%;
+    padding: 10px;
+    background: rgba(247, 248, 169, 0.1);
+    border: 1px solid rgba(6, 76, 133, 0.3) ;
+    margin-bottom: 25px;
+    font-size: 20px;
+    padding: 15px;
+    font-weight: bold;
+    }
+
+    .submitForm{
+        background: rgb(73, 86, 206);
+        color: black;
+        cursor: pointer;
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 15%;
+        margin-left: 30%;
+        padding: 10px 100px;
+    }
